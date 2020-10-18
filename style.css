@@ -1,0 +1,97 @@
+/* Colors and fonts */
+
+body {
+	background-color:rgb(0, 0, 0);
+	color: rgb(20, 20, 20);
+	font-family: 'Mukta', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+h1, h2, h3{
+	font-family: 'Orbitron', sans-serif;
+}
+
+h1 {
+	color: black;
+	font-weight: 800;
+	font-size: 36px;
+}
+
+h2{
+	color: rgb(85, 79, 242);
+	font-family: Arial
+	font-size: 24px
+	font-weight: lighter;
+}
+
+a{
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover {
+	color: #f08a5d
+}
+
+/* Custome design with class */
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+@media (max-width: 700px) {
+	.container {
+		width: 600px;
+	}
+}
+
+
+@media (max-width: 600px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+
+.box-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px -5px 24px rgba(85, 79, 242, 1);
+	border-radius: 8px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-square {
+	border-radius: 15%;
+}
+.btn-blue{
+	background-color: black;
+	color: rgb(85, 79, 242);
+	padding: 6px 16px;
+	border-radius: 8px;
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 40px;
+	color : black;
+}
+.list-inline i:hover {
+	color : #f08a5d;
+}
+
+/* Design adjustment using id (1% of the design) */
+
+#introduction p {
+	margin-bottom: 40px;
+}
